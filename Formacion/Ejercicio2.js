@@ -39,7 +39,7 @@ function(n_record, n_log) {
         n_log.debug({title: 'se genera el movimiento'});
 
 
-        //newMov.save({enableSourcing: false,ignoreMandatoryFields: false});
+        // Guardar el movimiento generado
         try {
             var newMomInfo = newMov.save();
             n_log.debug({title: 'Creado correctamente', details: newMomInfo});
