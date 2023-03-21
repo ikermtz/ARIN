@@ -1,18 +1,4 @@
-/*   +-------------------------------------------------------------------------------------------------+
-     | Versión |   Autor    |   Fecha    | Descripción                                                 |
-     |---------+------------+------------+-------------------------------------------------------------+
-     |  1.0    | Leire G.   |  07/03/23  | Creación del Restlet                                        |
-	 |---------+------------+------------+-------------------------------------------------------------+
-     |   Restlet de operaciones.                                                                       |
-     |    - Get: operacionGet -> Consulta de operaciones                                               |
-     |    - Post: operacionPost -> Creación/Actualización de operaciones                               |
-     | Se reciben por parametros la info del movimiento y el id de usuario, si el id no existiera se   |
-     | creara un nuevo usuario con un primer ingreso de bonificaión con un importe de 100€; si el      |
-     | movimiento dejara al usuario sin saldo, devuelve un error; si el usuario existe y tiene saldo   |
-     | suficiente; se actualizará el saldo y se generará el movimiento.                                |
-     |                                                                                                 |
-     +---------+------------+------------+-------------------------------------------------------------+
-*/
+
 /**
  *@NApiVersion 2.x
  *@NScriptType Restlet
